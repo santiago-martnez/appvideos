@@ -1,12 +1,13 @@
 import pkg from 'pg';
 const { Pool } = pkg;
+import dotenv from 'dotenv';
 
-const pool =  new Pool({
-    user: 'postgres',
-    password: 'corona',
-    host: 'localhost',
-    port: 5432,
-    database: 'appvideos'
-})
+dotenv.config();
+// URL de base de datos proporcionada por Render
+const databaseUrl = process.env.DATABASE_URL;
+
+const pool = new Pool({
+    connectionString: databaseUrl
+});
 
 export default pool;
