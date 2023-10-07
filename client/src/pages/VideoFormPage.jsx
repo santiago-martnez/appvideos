@@ -1,5 +1,5 @@
 import {useForm} from 'react-hook-form'
-import { useVideos } from '../context/videoContext'
+import { useVideos } from '../context/VideoContext'
 import {useNavigate} from 'react-router-dom'
 
 function VideoFormPage() {

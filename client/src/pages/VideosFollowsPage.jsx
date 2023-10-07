@@ -1,4 +1,4 @@
-import { useVideos } from '../context/videoContext';
+import { useVideos } from '../context/VideoContext';
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { Link } from 'react-router-dom';
