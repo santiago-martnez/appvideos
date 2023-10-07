@@ -1,6 +1,7 @@
 import axios from './axios'
 
-const API = 'http://localhost:4000/api'
+//const API = 'http://localhost:4000/api'
+const API = 'https://app-videos.onrender.com/api'
 
 export const registerRequest = user => axios.post(`/register`, user)
 
