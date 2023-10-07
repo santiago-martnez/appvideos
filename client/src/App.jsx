@@ -8,7 +8,7 @@ import ProfilePage from './pages/ProfilePage'
 import HomePage from './pages/HomePage'
 
 import ProtectedRoute from './ProtectedRoute'
-import { VideoProvider } from './context/videoContext'
+import { VideoProvider } from './context/VideoContext'
 import NavBar from './components/NavBar'
 import MyVideosPage from './pages/MyVideosPage'
 import CreatorsPage from './pages/CreatorsPage'
