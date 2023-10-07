@@ -1,13 +1,14 @@
 import pkg from 'pg';
+import { config } from 'dotenv';
 const { Pool } = pkg;
-import dotenv from 'dotenv';
 
-dotenv.config();
-// URL de base de datos proporcionada por Render
-const databaseUrl = process.env.DATABASE_URL;
+config()
 
-const pool = new Pool({
-    connectionString: databaseUrl
-});
+const pool =  new Pool({
+   connectionString: process.env.DATABASE_URL,
+   ssl:{
+       rejectUnauthorized: false,
+   }
+})
 
 export default pool;
