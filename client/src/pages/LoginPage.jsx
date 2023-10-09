@@ -37,7 +37,7 @@ function LoginPage() {
         type="text"
         {...register("username", { required: true })}
         className="w-full bg-zinc-700 text-white px-4 py-2 rounded-md"
-        placeholder="Usuario"
+        placeholder="TEST123 <- (credentials)"
         autoComplete="username"
       />
       {errors.username && (
@@ -50,7 +50,7 @@ function LoginPage() {
         type="password"
         {...register("password", { required: true })}
         className="w-full bg-zinc-700 text-white px-4 py-2 rounded-md"
-        placeholder="Contraseña"
+        placeholder="TEST123 <- (credentials)"
         autoComplete="current-password"
       />
       {errors.password && (

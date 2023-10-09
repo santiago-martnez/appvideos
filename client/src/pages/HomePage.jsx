@@ -20,20 +20,6 @@ function HomePage() {
         <span className="inline-block">Tempore beatae nemo! Praesentium, alias! Ab!</span>
     </p>
 
-    <div className="mt-12 flex flex-col justify-center gap-y-5 sm:mt-10 sm:flex-row sm:gap-y-0 sm:gap-x-6">
-        <a className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 animate-fade-in-left"
-            href="/login">
-    
-            <span className="">Iniciar Sesion</span>
-        </a>
-        <div className="relative flex flex-1 flex-col items-stretch sm:flex-none" data-headlessui-state="">
-        <a className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900 animate-fade-in-left"
-            href="/register">
-            <span className="">Registrarse</span>
-        </a>
-        </div>
-    </div>
-
 </div>
   )
 }
