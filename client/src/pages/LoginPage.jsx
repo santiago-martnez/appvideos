@@ -20,6 +20,7 @@ function LoginPage() {
   }, [isAuthenticated])
   if (isAuthenticated) {
     navigate("/videos");
+    console.log('go videos')
   }
 
   return (
