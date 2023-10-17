@@ -1,0 +1,13 @@
+/* tailwind.css o tu archivo de estilos personalizado */
+@media (min-width: 640px) {
+    .text-xs-md {
+      font-size: 1rem; /* Tamaño de fuente para pantallas pequeñas */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .text-lg-md {
+      font-size: 1.125rem; /* Tamaño de fuente para pantallas medianas */
+    }
+  }
+  
